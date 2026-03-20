@@ -60,5 +60,14 @@ title: Контроль исполнения документа
 </note>
 
 Для отображения объектов, поставленных на контроль, в списках документов предусмотрена специальная колонка. Если дважды по ней кликнуть, то откроется окно контроля объекта.
-
+{% raw %}
+{% assign folder_pages = site.pages | where_exp: "item", "item.path contains '1s-dokumentooborot'" | sort: 'title' %}
+<ul>
+{% for page in folder_pages %}
+  {% if page.name != 'index.md' and page.name != '_index.md' %}
+    <li><a href="{{ page.url | relative_url }}">{{ page.title | default: page.name | replace: '.md', '' }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+{% endraw %}
 <view display="List"/>
