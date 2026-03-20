@@ -11,6 +11,4 @@ title: "1С: Документооборот"
 
 </note>
 
-\<url  src="./1s-dokumentooborot/kontrol-ispolneniya-dokumenta.md"> Ссылка \</url>
-
 Внесла изменения
