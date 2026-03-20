@@ -1,2 +1,13 @@
 include:
   - "_*"
+collections:
+  dokumentooborot:
+    output: true
+    permalink: /1s-dokumentooborot/:path/
+
+defaults:
+  - scope:
+      path: "1s-dokumentooborot"
+      type: "dokumentooborot"
+    values:
+      layout: "page"
