@@ -3,7 +3,11 @@ order: 1.5
 title: Контроль исполнения документа
 ---
 
+## **Контроль исполнения документа**
+
 В 1С: Документооборот предусмотрена возможность следить за сроками и ходом выполнения работ по всем контролируемым объектам на начальной странице в одном виджите  **Контроль.**
+
+
 
 ![](./kontrol-ispolneniya-dokumenta.png){width=595px height=339px}
 
@@ -17,7 +21,7 @@ title: Контроль исполнения документа
 
 Или из карточки документа, нажав на **К.**
 
-<image src="./kontrol-ispolneniya-dokumenta-3.png" crop="0,0,100,100" scale="77" objects="annotation,22.6415,6.6365,,top-left&annotation,42.8157,36.8024,,top-left&annotation,26.8505,43.8914,,top-left&annotation,30.6241,82.0513,,top-left&annotation,22.6415,87.7828,,top-left" width="689px" height="663px" float="center"/>
+<img src="./kontrol-ispolneniya-dokumenta-3.png" crop="0,0,100,100" scale="77" objects="annotation,22.6415,6.6365,,top-left&annotation,42.8157,36.8024,,top-left&annotation,26.8505,43.8914,,top-left&annotation,30.6241,82.0513,,top-left&annotation,22.6415,87.7828,,top-left" width="689px" height="663px" float="center"/>
 
 **1\.Что контролировать**
 
@@ -53,11 +57,9 @@ title: Контроль исполнения документа
 
 ![](./kontrol-ispolneniya-dokumenta-10.png){width=716px height=339px}
 
-<note type="danger">
-
-**Кнопка <highlight color="mint-green">"Снять с контроля"</highlight> снимает полностью документ с контроля**
-
-</note>
+> [!CAUTION]
+> 
+> **Кнопка <highlight color="mint-green">"Снять с контроля"</highlight> снимает полностью документ с контроля**
 
 Для отображения объектов, поставленных на контроль, в списках документов предусмотрена специальная колонка. Если дважды по ней кликнуть, то откроется окно контроля объекта.
 {% raw %}
